@@ -1,0 +1,19 @@
+.book-form{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   
+}
+/* .book-list{
+   display: flex;
+   
+} */
+.book-store-title{
+  font-size: 2rem;
+   margin-top: 40px;
+   text-align: center;
+}
+.add-book-form{
+   margin: 20px
+}

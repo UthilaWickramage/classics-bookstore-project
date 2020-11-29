@@ -1,0 +1,88 @@
+.main-box{
+   width: 100%;
+   height: 750px;
+   
+   
+  
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.box1{
+   width: auto;
+   height: auto;
+   position: absolute;
+   top: 350px; 
+   left: 10%;
+   overflow: hidden;
+   
+   
+}
+.box1-text{
+   position: relative;
+z-index: 2;
+top: -400px;
+text-shadow: 1px 1px 15px #000000;
+   align-items: center;
+   left: 50%;
+   animation: anim 1s forwards 1s;
+}
+@keyframes anim{
+   from{
+      left: -50%;
+   }
+   to{
+      left: 0%;
+   }
+}
+.main-title{
+   font-size: 5rem;
+   font-weight: 700;
+   
+   text-align: center;
+
+}
+
+/* .box2{
+   width: 640px;
+   height: auto;
+   position: absolute;
+   top: 250px;
+   left: 100px;
+   overflow: hidden;
+}
+.img-book{
+   position: relative;
+   left: -100%;
+   animation: anim2 1s forwards 3s;
+} */
+/* .box2::after{
+   content: "";
+   position: absolute;
+   width: 640px;
+   height: auto;
+   
+   left: 0px;
+   z-index: -1;
+} */
+/* @keyframes anim2{
+   from{
+      bottom: -100%;
+   }
+   to{
+      bottom: 0%;
+   }
+} */
+/* @keyframes anim2{
+   from{
+      left: 30%;
+      width: 640px;
+   }
+   to{
+      width: 0px;
+      left: 50%;
+   }
+} */
+
+
+
